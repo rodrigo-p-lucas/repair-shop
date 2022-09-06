@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "team-api", "team-system\team-api.csproj", "{3F33C8BD-7FB3-41FD-938C-216B5226A26C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "systems", "systems", "{04437A51-3735-4EB8-8FD0-BAADF7C2F937}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "team", "team", "{D6D086C0-B6A3-41F0-AE6B-829B85F33C47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "booking", "booking", "{B27CC703-E63F-427C-8035-4E74A4447520}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vhc", "vhc", "{1BEC22AF-35A6-4C44-9051-6997BD21FE17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "quotation", "quotation", "{48A19A17-309B-4038-809A-4A82FBAD43C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "board", "board", "{0CCC129A-06B0-4DAD-8DEC-0664EADDA1CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration", "integration", "{526E88F4-7752-46E7-84E3-43FBDD4CA3EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api-gateway", "api-gateway", "{018EAFE2-C93D-49EF-8B2F-F283B209B240}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "authentication", "authentication", "{672D5893-B265-4793-AB3D-126FDE8405CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "applications", "applications", "{6C79CB19-865B-469A-9DBE-0AFCB947820F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F33C8BD-7FB3-41FD-938C-216B5226A26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F33C8BD-7FB3-41FD-938C-216B5226A26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F33C8BD-7FB3-41FD-938C-216B5226A26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F33C8BD-7FB3-41FD-938C-216B5226A26C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F33C8BD-7FB3-41FD-938C-216B5226A26C} = {D6D086C0-B6A3-41F0-AE6B-829B85F33C47}
+		{D6D086C0-B6A3-41F0-AE6B-829B85F33C47} = {04437A51-3735-4EB8-8FD0-BAADF7C2F937}
+		{B27CC703-E63F-427C-8035-4E74A4447520} = {04437A51-3735-4EB8-8FD0-BAADF7C2F937}
+		{1BEC22AF-35A6-4C44-9051-6997BD21FE17} = {04437A51-3735-4EB8-8FD0-BAADF7C2F937}
+		{48A19A17-309B-4038-809A-4A82FBAD43C4} = {04437A51-3735-4EB8-8FD0-BAADF7C2F937}
+		{0CCC129A-06B0-4DAD-8DEC-0664EADDA1CC} = {04437A51-3735-4EB8-8FD0-BAADF7C2F937}
+		{526E88F4-7752-46E7-84E3-43FBDD4CA3EC} = {04437A51-3735-4EB8-8FD0-BAADF7C2F937}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ACA2843-5262-4512-B91E-ED08287AF781}
+	EndGlobalSection
+EndGlobal
